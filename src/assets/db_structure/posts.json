@@ -1,0 +1,35 @@
+{
+    "Users": {
+        "userid": {
+            "name": "Andrey",
+            "imgage-url": "huy"
+        }
+    },
+    "Posts": {
+
+        "postid": {
+            "userid": "Users.userid",
+            "image-url": "",
+            "post description": "",
+            "likes": [
+                {
+                    "userid": "Users.userid"
+                },
+                {
+                    "userid": "Users.userid"
+                }
+            ]
+        }
+
+    },
+
+    "all-comments": {
+        "postid": 1,
+        "comments": [
+            {
+                "userid": 1,
+                "text": "nice"
+            }
+        ]
+    }
+}
